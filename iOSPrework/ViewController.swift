@@ -18,8 +18,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var totalAmountLabel: UILabel!
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Tip Calculator"
         
         print("hello world")
         // Do any additional setup after loading the view.
@@ -38,5 +40,6 @@ class ViewController: UIViewController {
         
     }
     
+
 }
 
